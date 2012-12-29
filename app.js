@@ -1,6 +1,6 @@
 var express = require('express'),
 	app = express(),
-	httpPort = 1000;
+	httpPort = 2000;
 
 app.set('views', __dirname + '/public/views');
 app.set('view engine', 'jade');
